@@ -1,0 +1,105 @@
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*   {
+    background-color: var(--off-black);
+    font-family: Inter;
+    
+}
+
+body    {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+ul  {
+    
+    list-style-type: none;
+    padding:0;
+    background-color: var(--dark-grey);
+
+}
+
+li  {
+   /* margin-bottom: 5px; */
+    background-color: var(--dark-grey);
+}
+
+h1  {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--dark-grey);
+}
+
+h2  {
+    font-size: 12px;
+    color: var(--green);
+    background-color: var(--dark-grey);
+}
+
+p   {
+    color: var(--white);
+    background-color: var(--dark-grey);
+    font-size: smaller;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.link_card      {
+    font-size: medium;
+    background-color: var(--dark-grey);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 15px;
+}
+
+.button     {
+    font-weight: bold;
+    font-size: small;
+    text-decoration: none;
+    width: 250px;
+    background-color: var(--grey);
+    border: 1px;
+    border-radius: 5px;
+    color: var(--white);
+    padding: 10px;
+}
+
+.button:hover       {
+    background-color: var(--green);
+    transition: 0.25s;
+    color: black;
+}
+
+.avatar     {
+    border-radius: 100%;
+    width: 100px;
+}
+
+.attribution {
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
