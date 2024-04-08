@@ -26,6 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
+![Desktop_Page](./assets/FEM_SML_Page_Desktop.png)
+
+![Mobile Page](./assets/FEM_SML_Page.png)
 
 ### Links
 
